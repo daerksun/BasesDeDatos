@@ -1,0 +1,11 @@
+C:\BD\ProgramasT\ApCSBDT\bin\Debug\ApCSBDT.exe.config
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.csprojResolveAssemblyReference.cache
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.FrmMenú.resources
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.Properties.Resources.resources
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.csproj.GenerateResource.Cache
+C:\BD\ProgramasT\ApCSBDT\bin\Debug\ApCSBDT.exe
+C:\BD\ProgramasT\ApCSBDT\bin\Debug\ApCSBDT.pdb
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.exe
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.pdb
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.FrmAlumnos.resources
+C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.FrmMaterias.resources
