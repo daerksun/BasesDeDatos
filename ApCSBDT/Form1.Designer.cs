@@ -28,9 +28,11 @@
       this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.MnuSalir = new System.Windows.Forms.ToolStripMenuItem();
       this.tablasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-      this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
       this.MnuAlumnos = new System.Windows.Forms.ToolStripMenuItem();
       this.materiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+      this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+      this.MnuConsulta = new System.Windows.Forms.ToolStripMenuItem();
+      this.mnuProgs = new System.Windows.Forms.ToolStripMenuItem();
       this.menuStrip3.SuspendLayout();
       this.SuspendLayout();
       // 
@@ -70,25 +72,42 @@
       this.tablasToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
       this.tablasToolStripMenuItem.Text = "Tablas";
       // 
-      // procesosToolStripMenuItem
-      // 
-      this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
-      this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
-      this.procesosToolStripMenuItem.Text = "Procesos";
-      // 
       // MnuAlumnos
       // 
       this.MnuAlumnos.Name = "MnuAlumnos";
-      this.MnuAlumnos.Size = new System.Drawing.Size(152, 22);
+      this.MnuAlumnos.Size = new System.Drawing.Size(122, 22);
       this.MnuAlumnos.Text = "Alumnos";
       this.MnuAlumnos.Click += new System.EventHandler(this.MnuAlumnos_Click);
       // 
       // materiaToolStripMenuItem
       // 
       this.materiaToolStripMenuItem.Name = "materiaToolStripMenuItem";
-      this.materiaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+      this.materiaToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
       this.materiaToolStripMenuItem.Text = "Materia";
       this.materiaToolStripMenuItem.Click += new System.EventHandler(this.materiaToolStripMenuItem_Click);
+      // 
+      // procesosToolStripMenuItem
+      // 
+      this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MnuConsulta,
+            this.mnuProgs});
+      this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
+      this.procesosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+      this.procesosToolStripMenuItem.Text = "Procesos";
+      // 
+      // MnuConsulta
+      // 
+      this.MnuConsulta.Name = "MnuConsulta";
+      this.MnuConsulta.Size = new System.Drawing.Size(226, 22);
+      this.MnuConsulta.Text = "Consulta";
+      this.MnuConsulta.Click += new System.EventHandler(this.MnuConsulta_Click);
+      // 
+      // mnuProgs
+      // 
+      this.mnuProgs.Name = "mnuProgs";
+      this.mnuProgs.Size = new System.Drawing.Size(226, 22);
+      this.mnuProgs.Text = "Subprogramas Almacenados";
+      this.mnuProgs.Click += new System.EventHandler(this.mnuProgs_Click);
       // 
       // FrmMenú
       // 
@@ -116,6 +135,8 @@
     private System.Windows.Forms.ToolStripMenuItem procesosToolStripMenuItem;
     private System.Windows.Forms.ToolStripMenuItem MnuAlumnos;
     private System.Windows.Forms.ToolStripMenuItem materiaToolStripMenuItem;
+    private System.Windows.Forms.ToolStripMenuItem MnuConsulta;
+    private System.Windows.Forms.ToolStripMenuItem mnuProgs;
   }
 }
 

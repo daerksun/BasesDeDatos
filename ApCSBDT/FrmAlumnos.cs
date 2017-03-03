@@ -1,4 +1,4 @@
-﻿using System;
+﻿  using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,10 +14,15 @@ namespace ApCSBDT {
       InitializeComponent();
     }
 
+    //Lee la tabla de alumnos 
     private void FrmAlumnos_Load(object sender, EventArgs e) {
-      // TODO: esta línea de código carga datos en la tabla 'dSAlumnos.ALUM' Puede moverla o quitarla según sea necesario.
       this.aLUMTableAdapter.Fill(this.dSAlumnos.ALUM);
 
+    }
+
+    //Actualiza la tabla de alumno en la BD
+    private void BtnACT_Click(object sender, EventArgs e) {
+      this.aLUMTableAdapter.Update(this.dSAlumnos.ALUM);
     }
   }
 }

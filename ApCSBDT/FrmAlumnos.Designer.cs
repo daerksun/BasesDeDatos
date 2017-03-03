@@ -32,6 +32,7 @@
       this.aLUMBindingSource = new System.Windows.Forms.BindingSource(this.components);
       this.dSAlumnos = new ApCSBDT.DSAlumnos();
       this.aLUMTableAdapter = new ApCSBDT.DSAlumnosTableAdapters.ALUMTableAdapter();
+      this.BtnACT = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.aLUMBindingSource)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.dSAlumnos)).BeginInit();
@@ -49,7 +50,7 @@
       this.dataGridView1.DataSource = this.aLUMBindingSource;
       this.dataGridView1.Location = new System.Drawing.Point(12, 24);
       this.dataGridView1.Name = "dataGridView1";
-      this.dataGridView1.Size = new System.Drawing.Size(445, 143);
+      this.dataGridView1.Size = new System.Drawing.Size(445, 213);
       this.dataGridView1.TabIndex = 0;
       // 
       // cUDataGridViewTextBoxColumn
@@ -90,11 +91,22 @@
       // 
       this.aLUMTableAdapter.ClearBeforeFill = true;
       // 
+      // BtnACT
+      // 
+      this.BtnACT.Location = new System.Drawing.Point(12, 266);
+      this.BtnACT.Name = "BtnACT";
+      this.BtnACT.Size = new System.Drawing.Size(445, 31);
+      this.BtnACT.TabIndex = 1;
+      this.BtnACT.Text = "Actualizar";
+      this.BtnACT.UseVisualStyleBackColor = true;
+      this.BtnACT.Click += new System.EventHandler(this.BtnACT_Click);
+      // 
       // FrmAlumnos
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(474, 215);
+      this.ClientSize = new System.Drawing.Size(476, 325);
+      this.Controls.Add(this.BtnACT);
       this.Controls.Add(this.dataGridView1);
       this.Name = "FrmAlumnos";
       this.Text = "Datos Alumnos";
@@ -116,5 +128,6 @@
     private System.Windows.Forms.DataGridViewTextBoxColumn nOMALDataGridViewTextBoxColumn;
     private System.Windows.Forms.DataGridViewTextBoxColumn cARRDataGridViewTextBoxColumn;
     private System.Windows.Forms.DataGridViewTextBoxColumn pROMDataGridViewTextBoxColumn;
+    private System.Windows.Forms.Button BtnACT;
   }
 }

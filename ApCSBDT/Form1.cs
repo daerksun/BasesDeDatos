@@ -28,5 +28,15 @@ namespace ApCSBDT {
       FrmMaterias fm = new FrmMaterias();
       fm.ShowDialog();
     }
+
+    private void MnuConsulta_Click(object sender, EventArgs e) {
+      FrmConsulta fc = new FrmConsulta();
+      fc.Show();
+    }
+
+    private void mnuProgs_Click(object sender, EventArgs e) {
+      FrmSubProgAlm fs = new FrmSubProgAlm();
+      fs.Show();
+    }
   }
 }

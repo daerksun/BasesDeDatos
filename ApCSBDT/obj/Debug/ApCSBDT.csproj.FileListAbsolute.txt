@@ -9,3 +9,16 @@ C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.exe
 C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.pdb
 C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.FrmAlumnos.resources
 C:\BD\ProgramasT\ApCSBDT\obj\Debug\ApCSBDT.FrmMaterias.resources
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\bin\Debug\ApCSBDT.exe.config
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.exe
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.pdb
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\bin\Debug\ApCSBDT.exe
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\bin\Debug\ApCSBDT.pdb
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.csprojResolveAssemblyReference.cache
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.FrmMenú.resources
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.FrmAlumnos.resources
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.FrmMaterias.resources
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.Properties.Resources.resources
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.csproj.GenerateResource.Cache
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.FrmConsulta.resources
+C:\Users\sdist.ITAM\Desktop\BasesDeDatos\ApCSBDT\obj\Debug\ApCSBDT.FrmSubProgAlm.resources
